@@ -57,7 +57,9 @@ Given the systemic nature of this threat and its active exploitation for surveil
 **Action Required:** Federal agencies and critical infrastructure operators must identify and isolate devices containing `com.spreadtrum.sgps` (specifically on Unisoc T606 platforms) and implement network-level blocking of associated C2 infrastructure (AWS/Hetzner IPs, Longcheer domains).
 
 anexo 1. Yara Rules 
-rule Unisoc_Longcheer_SGPS_Backdoor {
+
+rule Unisoc_Longcheer_SGPS_Backdoor
+{
     meta:
         author = "Alexis Michel De La Cruz Correa & AI Assistant"
         date = "2026-07-25"
