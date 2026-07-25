@@ -1,4 +1,4 @@
-# com.spreadtrum.sgps_1.0 CAN-2026-2034505 
+# com.spreadtrum.sgps_1.0 CAN-2026-2034505 TLP:CLEAR - Disclosure is not limited.
 This report details a critical supply chain vulnerability embedded in the system application `com.spreadtrum.sgps
 
 # **Forensic Investigation Report: Critical Supply Chain Vulnerability in `com.spreadtrum.sgps`**
