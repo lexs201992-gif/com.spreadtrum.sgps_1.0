@@ -1,13 +1,15 @@
-# com.spreadtrum.sgps_1.0
+# com.spreadtrum.sgps_1.0 CAN-2026-2034505 
 This report details a critical supply chain vulnerability embedded in the system application `com.spreadtrum.sgps
 
 # **Forensic Investigation Report: Critical Supply Chain Vulnerability in `com.spreadtrum.sgps`**
-**Subject:** Nomination for CVE Assignment & Inclusion in CISA Binding Operational Directive (BOD) 26-04
+**Subject:** Nomination for CVE Assignment CAN-2026-2034505 & Inclusion in CISA Binding Operational Directive (BOD) 26-04
 **Date:** July 25, 2026
 **Researcher:** Alexis Michel De La Cruz Correa (Independent Security Researcher, LATAM)
 **Target Component:** `com.spreadtrum.sgps` (Spreadtrum GPS Engineering Service)
 **Affected Vendors:** Unisoc (Spreadtrum), ODM Longcheer, OEMs (Motorola, Tecno, Infinix, ZTE, etc.)
 **Affected Chipsets:** Unisoc T606, T616, SC9863A (Marlin3 Platform)
+
+This research was conducted in accordance with CISA Coordinated Vulnerability Disclosure (CVD) principles and the sample Safe Harbor provision: 'We will not initiate legal action for good-faith research conducted in compliance with this policy
 
 ## **1. Executive Summary**
 This report details a critical supply chain vulnerability embedded in the system application `com.spreadtrum.sgps`. Unlike standard location services, this application functions as a **privileged Command & Control (C2) orchestrator** designed by **Longcheer** and **Unisoc**. It possesses the unique capability to execute arbitrary system commands, reboot devices remotely, bypass user consent for background location tracking, and establish persistent data exfiltration tunnels via hardware mailboxes.
